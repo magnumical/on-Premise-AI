@@ -2,7 +2,7 @@
 import requests
 
 # Replace with the IP address of Server Computer (get it via ipconfig)
-server_url = "http://172.21.37.140:5000/process"
+server_url = "http://XX.XX.XX.XX:5000/process"
 
 
 data = {
