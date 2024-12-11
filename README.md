@@ -3,3 +3,8 @@ This project demonstrates a simple Python-based setup to send a request from one
 ```
 pip install flask requests
 ```
+
+
+next step would be:
+1. using docker and running multiple projects at the same time.
+2. Implementing orchestration and efficient resource management for shared resources
