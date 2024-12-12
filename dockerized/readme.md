@@ -33,11 +33,9 @@ CMD ["python", "code2.py"]
 ## Resource Management
 
 ### For GPU management:
+Install NVIDIA Docker to enable GPU sharing. Start the containers with GPU access:
 
 ```
-    Install NVIDIA Docker to enable GPU sharing.
-    Start the containers with GPU access:
-
     docker run -d --name container1 --gpus all container1_image
     docker run -d --name container2 --gpus all container2_image
 ```
